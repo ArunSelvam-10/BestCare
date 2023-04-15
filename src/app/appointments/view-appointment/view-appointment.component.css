@@ -1,0 +1,38 @@
+.content{
+  background-color:rgba(137, 43, 226, 0.329);
+  height:fit-content;
+ overflow-x: hidden;
+}
+.title{
+  width:97vw;
+  height: 100px;
+  margin-top: 75px;
+  margin-left: 25px;
+  background-color: blueviolet;
+  border-radius: 45px 0px 45px 0px;
+  text-align: center;
+  
+}
+h4{
+  padding-top: 20px;
+  font-size: 45px;
+  color:blanchedalmond;
+  font-family:'Poppins, sans-serif';
+}
+.table{
+ background-color:rgba(137, 43, 226, 0.301);
+ margin-top:15px;
+
+}
+thead{
+  background-color:blueviolet;
+  font-size:20px;
+  font-family:'Poppins, sans-serif';
+}
+td{
+  font-family:'Poppins, sans-serif';
+  font-weight: 450;
+}
+#edit{
+  margin-left: 5px;
+}

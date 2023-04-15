@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row">
+        <form [formGroup]="addForm"  (ngSubmit)="savedata()">
+            <div class="header">
+                <h4>Add Appointment</h4>
+            </div>
+
+                <div class="inputsize">
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Title</label>
+                        <input type="text" id="disabledTextInput" formControlName="title" class="form-control" ngModel placeholder="Enter title">
+                        <div class="text-danger" *ngIf="submitted && add['title'].errors"> This field is required !</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Date</label>
+                        <input type="date" id="disabledTextInput" formControlName="date" class="form-control" ngModel > 
+                        <div class="text-danger" *ngIf="submitted && add['date'].errors"> This field is required !</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Time</label>
+                        <input type="time" id="disabledTextInput" formControlName="time" class="form-control" ngModel>
+                        <div class="text-danger" *ngIf="submitted && add['time'].errors"> This field is required !</div>
+                    </div> 
+
+                    <div class="mb-3">
+                        <label for="disabledSelect" class="form-label">Patient</label>
+                        <select class="form-select" formControlName="patient" ngModel>
+                            <option  selected>--Select Patient--</option>
+                            <option *ngFor = "let patient of patients">{{patient.patientName}}</option>
+                        </select> 
+                        <div class="text-danger" *ngIf="submitted && add['patient'].errors"> This field is required !</div>                            
+                    </div> 
+
+                    <div class="mb-3">
+                        <label for="disabledSelect" class="form-label">Doctor</label>
+                        <select class="form-select" formControlName="doctor" ngModel>
+                            <option  selected>--Select Doctor--</option>
+                            <option *ngFor="let doctor of doctors">{{doctor.doctorName}} </option>                
+                        </select> 
+                        <div class="text-danger" *ngIf="submitted && add['doctor'].errors"> This field is required !</div>
+                    </div>
+                                    
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label" ngModel>Description</label>
+                        <textarea class="form-control" placeholder="Enter description" id="floatingTextarea" formControlName="description"></textarea>
+                        <div class="text-danger" *ngIf="submitted && add['description'].errors"> This field is required !</div>
+                    </div>                                 
+                     <button type="submit" [disabled]="addForm.invalid" class="btn btn-primary mb-3" id="bn39">Create Appointment</button>    
+                    <!-- <button class="bn39"><span class="bn39span">Create Appointment</span></button> -->
+                </div>
+        </form>
+    </div>
+</div> 

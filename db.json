@@ -1,0 +1,139 @@
+{
+  "appointments": [
+    {
+      "title": "Nithya( headache)",
+      "date": "2023-03-20",
+      "time": "14:00",
+      "patient": "Quagmaire",
+      "doctor": "Dr. Louis",
+      "description": "Watching television too much.",
+      "id": 16
+    },
+    {
+      "title": "Backpain",
+      "date": "2023-03-20",
+      "time": "02:32",
+      "patient": "Stewe",
+      "doctor": "Dr. Griffin",
+      "description": "backpain\n",
+      "id": 17
+    },
+    {
+      "title": "ulcer",
+      "date": "2023-03-22",
+      "time": "14:22",
+      "patient": "Peter",
+      "doctor": "Dr. Louis",
+      "description": "ulcer",
+      "id": 18
+    },
+    {
+      "title": "sinus",
+      "date": "2023-03-23",
+      "time": "11:11",
+      "patient": "Louis",
+      "doctor": "Dr. Stewe",
+      "description": "sinus",
+      "id": 19
+    },
+    {
+      "title": "Diabetic",
+      "date": "2023-03-22",
+      "time": "14:22",
+      "patient": "Griffin",
+      "doctor": "Dr. Griffin",
+      "description": "diabetic",
+      "id": 20
+    },
+    {
+      "title": "Arun",
+      "date": "2023-03-13",
+      "time": "20:11",
+      "patient": "Griffin",
+      "doctor": "Dr. Griffin",
+      "description": "asd",
+      "id": 22
+    },
+    {
+      "title": "test123",
+      "date": "2023-03-22",
+      "time": "14:22",
+      "patient": "Quagmaire",
+      "doctor": "Dr. Quagmaire",
+      "description": "asd",
+      "id": 24
+    },
+    {
+      "title": "Murshid (Master Health Checkup)",
+      "date": "2023-03-20",
+      "time": "10:10",
+      "patient": "Stewe",
+      "doctor": "Dr. Louis",
+      "description": "Men will be men",
+      "id": 25
+    },
+    {
+      "title": "Test 2",
+      "date": "2023-03-24",
+      "time": "16:00",
+      "patient": "Louis",
+      "doctor": "Dr. Quagmaire",
+      "description": "Test 2",
+      "id": 26
+    }
+  ],
+  "patients": [
+    {
+      "patientName": "Peter",
+      "doctorName": "Dr. Peter",
+      "id": "1"
+    },
+    {
+      "patientName": "Griffin",
+      "doctorName": "Dr. Griffin",
+      "id": "2"
+    },
+    {
+      "patientName": "Louis",
+      "doctorName": "Dr. Louis",
+      "id": "3"
+    },
+    {
+      "patientName": "Stewe",
+      "doctorName": "Dr. Stewe",
+      "id": "4"
+    },
+    {
+      "patientName": "Quagmaire",
+      "doctorName": "Dr. Quagmaire",
+      "id": "5"
+    }
+  ],
+  "doctors": [
+    {
+      "patientName": "Peter",
+      "doctorName": "Dr. Peter",
+      "id": "1"
+    },
+    {
+      "patientName": "Griffin",
+      "doctorName": "Dr. Griffin",
+      "id": "2"
+    },
+    {
+      "patientName": "Louis",
+      "doctorName": "Dr. Louis",
+      "id": "3"
+    },
+    {
+      "patientName": "Stewe",
+      "doctorName": "Dr. Stewe",
+      "id": "4"
+    },
+    {
+      "patientName": "Quagmaire",
+      "doctorName": "Dr. Quagmaire",
+      "id": "5"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color:rgb(76, 12, 136) ;   
+    flex-direction: row;    
+    height:60px;
+    position:fixed;
+    width:100%;
+}
+.logo img{
+   position: relative;
+   width:50px;
+   height:50px;
+   margin-left:750px;
+   border-radius: 5px 5px 5px 5px;
+}
+.theme p{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:45px;
+    margin-left:530px;
+    top:0px;
+    color:blanchedalmond;
+    
+}
+#btn1{
+    background-color: blanchedalmond;
+    color:blueviolet;
+    margin:5px;
+    width:80px;
+    height: 35px;
+    border-style: none;
+    font-size: 20px;
+    transition: 0.4s;
+    font-family:'Poppins, sans-serif';
+}
+#btn1:hover{
+    background-color: blueviolet;
+    color:black;
+    font-weight: 600;
+    transition: 0.4s;
+}
+#btn2{
+    background-color: blanchedalmond;
+    color:blueviolet;
+    margin:5px;
+    width:190px;
+    height: 35px;
+    border-style: none;
+    font-size: 20px;
+    transition: 0.4s;
+    font-family:'Poppins, sans-serif';
+}
+#btn2:hover{
+    background-color: blueviolet;
+    color:black;
+    font-weight: 600;
+    transition: 0.4s;
+}
+#btn3{
+    background-color: blanchedalmond;
+    color:blueviolet;
+    border-style: none;
+    margin:5px;
+    height: 35px;
+    width:190px;
+    font-size: 20px;
+    font-family:'Poppins, sans-serif';
+    transition: 0.4s;
+}
+#btn3:hover{
+    background-color: blueviolet;
+    color:black;
+    font-weight: 600;
+    transition: 0.4s;
+}

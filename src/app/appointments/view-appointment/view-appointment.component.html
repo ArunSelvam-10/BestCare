@@ -1,0 +1,71 @@
+<div class="main-wrapper">
+    <div class="page-wrapper">
+      <div class="content">
+          <div class="row">
+              <div class="title">
+                  <h4 class="page-title">View Appointments</h4>
+              </div>
+              <!-- <div class="col-sm-8 col-9 text-right m-b-20">
+                  <a href="Add Appointment" [routerLink]="['/add-appointments']" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus" id="add-button"></i> Add Appointment</a>
+              </div> -->
+          </div>
+          <div class="row">
+              <div class="col-md-12" id="tablesize">
+                  <div class="table-responsive">
+                      <table class="table table-border table-striped custom-table mb-0" id="table">
+                          <thead>
+                              <tr>
+                                  <th>ID</th>
+                                  <th>Title</th>
+                                  <th>Date</th>
+                                  <th>Time</th>
+                                  <th>Patient</th>
+                                  <th>Doctor</th>
+                                  <th>Description</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                            <tr *ngFor = "let appointment of appointments">
+                                <td>{{appointment.id}}</td>
+                                <td>{{appointment.title}}</td>
+                                <td>{{appointment.date}}</td>   
+                                <td>{{appointment.time}}</td>
+                                <td>{{appointment.patient}}</td>
+                                <td>{{appointment.doctor}}</td>
+                                <td>{{appointment.description}}</td>
+
+
+                                <td class="text-right">
+                                    
+                                        <button type="submit" class="btn btn-danger" (click)="deleteAppointment(appointment)" id="delete">Delete</button>
+                                    
+                                        <button type="submit" class="btn btn-secondary" routerLink="/edit-appointments/{{appointment.id}}" id="edit">Edit</button>
+                                   
+                                    
+
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                      </table>
+                  </div>
+          </div>
+          </div>
+      </div>
+  </div>
+  <!-- <div id="delete_schedule" class="modal fade delete-modal" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-body text-center">
+                  <img src="assets/img/sent.png" alt="" width="50" height="46">
+                  <h3>Are you sure want to delete this Schedule?</h3>
+                  <div class="m-t-20"> <a href="#" class="btn btn-white" data-dismiss="modal">Close</a>
+                      <button type="submit" class="btn btn-danger">Delete</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div> -->
+  
